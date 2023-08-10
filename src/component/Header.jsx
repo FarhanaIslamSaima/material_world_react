@@ -36,7 +36,7 @@ export default function Header() {
   };
 
   return (
-    <AppBar position="static" style={{"margin-bottom":"20px"}}>
+    <AppBar position="static" style={{"margin-bottom":"20px",background:"black"}}>
       <Container maxWidth="xl"> 
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
