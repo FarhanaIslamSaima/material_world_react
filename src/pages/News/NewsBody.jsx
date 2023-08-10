@@ -6,11 +6,14 @@ import NewsBodyRight from './NewsBodyRight';
 const NewsBody = () => {
     return (
        <Box sx={{display:'flex',width:'100%'}}>
-        <Box sx={{width:'80%'}}>
+        <Box sx={{width:'75%'}}>
+            <NewsBodyLeft/>
+            <NewsBodyLeft/>
+            <NewsBodyLeft/>
             <NewsBodyLeft/>
        
         </Box>
-        <Box sx={{width:"20%"}}>
+        <Box sx={{width:"25%"}}>
             <NewsBodyRight/>
 
         </Box>

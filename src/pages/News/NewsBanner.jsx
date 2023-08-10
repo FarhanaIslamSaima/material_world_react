@@ -46,7 +46,7 @@ const NewsBanner = () => {
                 fontWeight:'bold',
                 marginLeft:"25px"
             }}}>
-            <Typography sx={{color:"red"}}><HomeWorkIcon/>Home</Typography>
+            <Typography sx={{color:"red",marginLeft:"25px"}}><HomeWorkIcon/>Home</Typography>
             <Typography>Politics</Typography>
             </Box>
          

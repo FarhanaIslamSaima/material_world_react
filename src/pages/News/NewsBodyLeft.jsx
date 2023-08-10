@@ -3,7 +3,6 @@ import { Box, Typography } from '@mui/material';
 import pic from './assests/news.jpg'
 import PersonIcon from '@mui/icons-material/Person';
 import AccessAlarmsIcon from '@mui/icons-material/AccessAlarms';
-
 const NewsBodyLeft = () => {
     return (
         <Box sx={{margin:"50px 60px", display:{xs:"none",md:'flex'}}}>

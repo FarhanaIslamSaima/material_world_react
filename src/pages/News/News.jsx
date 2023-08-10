@@ -9,10 +9,7 @@ const News = () => {
             <Grid item xs={12} >
                 <NewsBanner/>
                <NewsBody/>
-               <NewsBody/>
-               <NewsBody/>
-               <NewsBody/>
-               <NewsBody/>
+              
             </Grid>
 
         </Grid>
